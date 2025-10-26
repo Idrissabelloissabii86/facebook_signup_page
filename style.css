@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9ebee;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto,  Arial, sans-serif;
+    
+}
+.container{
+    width: 600px;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+.formulaire{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #1c1e21;
+}
+.header p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.top_input{
+    margin: 15px 0;
+}
+.middle_input{
+    margin: 0 0 15px 0;
+}
+.flex_row{
+    display: flex;
+    gap: 10px;
+}
+.flex_row input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex_column input{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.titre{
+    color: grey;
+}
+select{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(94, 93, 93);
+    border-radius: 5px;
+    background-color: rgb(243, 240, 240);
+}
+/* genre */
+.genre{
+    display: flex;
+    gap: 10px;
+}
+.genre div{
+    display: flex;
+    flex: 1;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.genre div input{
+    margin-right: 5px;
+}
+.politique{
+    color: #1c1e21;
+    text-align:justify;
+    margin: 15px 0 15px 0;
+}
+
+p a{
+    text-decoration: none;
+    color: #1877f2;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex_row{
+        flex-direction: column;
+    }
+    .flex_row input{
+        width: 100%;
+    }
+    .genre{
+        flex-direction: column;
+    }
+    .genre div{
+        width: 50%;
+    }
+    
+    
+}
