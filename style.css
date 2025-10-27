@@ -21,7 +21,7 @@ body{
     border: 2px solid black;
 } */
  .top_input input:focus, select:focus{
-    outline: 1px solid black;
+    outline: 0.5px solid black;
  }
 .formulaire{
     width: 90%;
