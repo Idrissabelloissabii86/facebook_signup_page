@@ -17,6 +17,12 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     background-color: #fff;
 }
+/* .formulaire input:focus{
+    border: 2px solid black;
+} */
+ .top_input input:focus, select:focus{
+    outline: 1px solid black;
+ }
 .formulaire{
     width: 90%;
     margin: auto;
@@ -84,6 +90,9 @@ select{
 }
 .genre div input{
     margin-right: 5px;
+}
+.genre div label:hover{
+    cursor: pointer;
 }
 .politique{
     color: #1c1e21;

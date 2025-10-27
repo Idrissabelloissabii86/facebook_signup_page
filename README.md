@@ -24,8 +24,8 @@ CSS3
 
 ## Aperçu
 
-![Aperçu non responsive](./immages/Capture.png)
+![Aperçu non responsive](./images/Capture.png)
 
-![Aperçu responsive](./immages/Responsive.png)
+![Aperçu responsive](./images/Responsive.png)
 
 ## Lien Demo
